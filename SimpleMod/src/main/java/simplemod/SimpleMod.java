@@ -19,6 +19,7 @@ import simplemod.proxies.CommonProxy;
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class SimpleMod {
 	
+	//random comment
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.COMMON_PROXY)
 	public static CommonProxy proxy;
 	
